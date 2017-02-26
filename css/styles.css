@@ -1,3 +1,55 @@
+/*Navbar*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 20px;
+    float: right;
+}
+
+ul a {
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #000000;
+    vertical-align: super;
+}
+
+li {
+    display: inline-block;
+
+    padding:6px 10px 6px 6px;
+}
+
+.opac{
+	opacity: 0.65;
+}
+
+li:hover {
+	opacity: 1;
+}
+
+.apps{
+	vertical-align: 2px;
+}
+.notifications{
+	padding-bottom: 3px;
+}
+
+.round{
+	background-color: grey;
+    border-radius: 12px;
+    padding: 1px 6px;
+    vertical-align: 4px;
+}
+
+.round-user{
+	background: url('../img/photo.jpg') no-repeat center;
+	background-size: 35px;
+	border-radius: 20px;
+    padding: 10px 17px;
+    vertical-align: 7px; 
+}
+/*Logo*/
 #logo{
 	display: block;
 	width: 272px;
@@ -20,6 +72,7 @@
     left: 215px;
 }
 
+/*Search form*/
 #form{
 	position: absolute;
 	top: 250px;
